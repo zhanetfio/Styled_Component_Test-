@@ -1,5 +1,6 @@
 {
   "name": "portfolio-start",
+  "homepage": "https://zhanetfio/Styled_Component_Test-",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -66,7 +67,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "nmp run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
